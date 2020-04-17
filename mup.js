@@ -8,7 +8,7 @@ module.exports = {
       host: "134.122.105.96",
       username: "root",
       password: "Rwbento123",
-      pem: "../../../.ssh/id_rsa",
+      pem: "~/.ssh/id_rsa",
     }
   },
 
