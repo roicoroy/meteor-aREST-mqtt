@@ -5,26 +5,23 @@ module.exports = {
       // pem: './path/to/pem'
       // password: 'server-password'
       // or neither for authenticate from ssh-agent
-      host: "134.122.105.96",
+      host: "104.248.226.108",
       username: "root",
       password: "Rwbento123",
-      pem: "../../../.ssh/id_rsa",
+      pem: "C:/Users/RBento/.ssh/id_rsa",
     }
   },
 
   app: {
     // TODO: change app name and path
     name: 'app',
-    path: '.',
-
+    path: '../',
     servers: {
       one: {},
     },
-
     buildOptions: {
       serverOnly: true,
     },
-
     env: {
       // TODO: Change to your app's url
       // If you are using ssl, it needs to start with https://
