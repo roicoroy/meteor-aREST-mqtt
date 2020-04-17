@@ -1,0 +1,22 @@
+{
+  "servers": [
+    {
+      "host": "104.248.226.108",
+      "username": "root",
+      "password": "Rwbento123",
+      "pem": "C:/Users/RBento/.ssh/id_rsa"
+    }
+  ],
+  "setupMongo": true,
+  "setupNode": true,
+  "nodeVersion": "0.10.43",
+  "setupPhantom": true,
+  "enableUploadProgressBar": true,
+  "appName": "arest",
+  "app": ".",
+  "env": {
+    "ROOT_URL": "http://localhost",
+    "PORT": 3000
+  },
+  "deployCheckWaitTime": 15
+}
